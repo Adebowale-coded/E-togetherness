@@ -119,27 +119,52 @@
                             </select>
                           </div>
     
-                      <div class="input-field">
-                        <label class="details">Gender</label>
-                        <input type="text" placeholder="Gender" name="gender" required/>
-                      </div>
+                          <div class="input-field">
+                            <label for="">Gender</label>
+                            <Select  name="user_type" class="details">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            </select>
+                          </div>
     
     
-                      <div class="input-field">
-                        <label for="">A</label>
+                      <div style="display: block;">
+                        <label for="">Age</label><br/>
+                          <div class="input-field" style="display: inline;">
                         <Select  name="user_type" class="details">
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
+                        <option value="Male">18 yrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                        <option value="Female">19</option>
+                        <option value="Female">20</option>
+                        <option value="Female">21</option>
+                        <option value="Female">22</option>
+                        <option value="Female">23</option>
                         </select>
+                        <!-- second select-->
+                        <Select  name="user_type" class="details">
+                          <option value="Male">18 yrs &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                        <option value="Female">19</option>
+                        <option value="Female">20</option>
+                        <option value="Female">21</option>
+                        <option value="Female">22</option>
+                        <option value="Female">23</option>
+                          </select>
+                      </div>
+                    </div>
+    
+                      <div class="input-field">
+                        <label class="details">Last active</label>
+                        <Select  name="user_type" class="details">
+                          <option value="Male">Any &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                        <option value="Female">Within 1 week</option>
+                        <option value="Female">Within one month</option>
+                        <option value="Female">Within Three month</option>
+                        <option value="Female">Eithin a year</option>
+                        <option value="Female">With a year</option>
+                          </select>
                       </div>
     
                       <div class="input-field">
-                        <label class="details">Email Address</label>
-                        <input type="text" placeholder="Enter your email address" name="email" required/>
-                      </div>
-    
-                      <div class="input-field">
-                        <label class="details">Visitor's Address</label>
+                        <label class="details">Verified user</label>
                         <input type="text" placeholder="Address" name="address" required/>
                       </div>
     
@@ -153,25 +178,25 @@
                     <!--Second part--> <!--Second part--> <!--Second part--> <!--Second part-->
     
                     <div class="details ID">
-                      <span class="title"> Visiting Details </span>
+                      <span class="title"> Living in </span>
                     </div>
     
                     <div class="fields">
     
                       <div class="input-field">
-                        <label class="details">Reasons For Visiting</label>
-                        <input type="text" placeholder= "" name="reasons" required/>
+                        <label class="details">Country</label>
+                        <input type="text" placeholder= "Your country" name="reasons" required/>
                       </div>
     
                       <div class="input-field">
-                        <label class="details">Who Are You Visiting / Ward</label>
+                        <label class="details">State</label>
                         <input type="text" placeholder="Who Are You Visiting" name="who" required/>
                       </div>
     
                       <div class="input-field">
-                        <label for="">Select</label>
+                        <label for="">City  </label>
                         <Select  name="user_type" class="details">
-                        <option value="parents">Parents</option>
+                        <option value="parents">Any City</option>
                         <option value="siblings">Sibling</option>
                         <option value="relative">Relative</option>
                         <option value="delivery">Delivery</option>
@@ -180,7 +205,7 @@
                       </div>
     
                       <div class="input-field">
-                        <label class="details">State</label>
+                        <label class="details">Province</label>
                         <input type="text" placeholder="State" name="state" required/>
                       </div>
     

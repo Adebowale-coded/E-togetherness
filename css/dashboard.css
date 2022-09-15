@@ -386,3 +386,27 @@ input:focus{
     padding: 10px;
     
 }
+#hi{
+    width: 30%;
+    outline: 1px solid black;
+    
+}
+.girl{
+    background: rgb(20, 14, 50);
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    width: 2%;
+}
+
+#span{
+    display: inline;
+    
+}
+
+.orange{
+    width: 33.3%;
+    background: orangered;
+    margin-left: 20px;
+    padding: 20px;
+}
