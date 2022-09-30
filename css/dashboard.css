@@ -410,3 +410,30 @@ input:focus{
     margin-left: 20px;
     padding: 20px;
 }
+
+.class{
+    display: flex;
+}
+
+
+.ye{
+    padding: 10px;
+    background: green;
+    color: white;
+    text-decoration: none;
+}
+.ye:hover{
+    color: white;
+}
+/* another navbar*/
+
+.how{
+    background:rgb(194, 190, 212);
+}
+.collapse .navbar .one{
+    text-align: left;
+}
+
+.div{
+    text-align:  center;
+}
